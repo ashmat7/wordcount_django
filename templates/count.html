@@ -7,9 +7,7 @@
 
 <h1>word count</h1>
 
-{% for word,count1 in worddictionaryy %}
-{{word}}
-<br />
-{{count1}}
+{% for word,count1 in sortedwords %}
+{{word}}-{{count1}}
 <br />
 {% endfor %}
